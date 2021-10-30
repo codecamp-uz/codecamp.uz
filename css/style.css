@@ -11,7 +11,7 @@
     background-color: white;
     height: 70px;
 }
-.navbar .container{
+.navbar .nav-contain{
     max-width: 1200px;
     margin: 0px auto;
     display: flex;
@@ -62,6 +62,11 @@ td a{
 }
 
 /* Global CSS */
+.container{
+  margin: auto;
+  max-width: 1600px;
+  box-sizing: border-box;
+}
 h1,
 h2,
 h3 {
@@ -82,7 +87,7 @@ p {
   background-color: white;
   height: 70px;
 }
-.navbar .container {
+.navbar .nav-contain {
   /* max-width: 1200px; */
   margin: 0px auto;
   display: flex;
@@ -158,4 +163,12 @@ td a {
 header{
     box-shadow:  5px 5px 10px #dcdcdc,
              -5px -5px 10px #e4e4e4;
+}
+.text-info{
+    float: left;
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+    text-align: justify;
 }
