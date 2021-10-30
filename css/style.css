@@ -1,60 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-.navbar{
-    width: 100%;
-    color: whitesmoke;
-    background-color: white;
-    height: 70px;
-}
-.navbar .container{
-    max-width: 1200px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-}
-nav{
-    display: flex;
-}
-.navElements{
-    position: relative;
-}
-.navmenu{
-    vertical-align: middle;
-}
-td a{
-    text-decoration: none;
-    font-size: 17px;
-    margin: 0px 10px;
-    
-}
-.searchBox{   
-    position: relative;   
-    width: 300px;
-    border: 4px solid whitesmoke;
-    border-radius: 50px;
-    padding: 0px 10px;
-}
-.searchElements{    
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;
-}
-.search{
-    border: none;
-    padding: 0px 5px;
-    width: 100%;
-}
-.search:focus{
-    outline: none;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.material-icons{
-    vertical-align: middle;
+/* Global CSS */
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  color: whitesmoke;
+  background-color: white;
+  height: 70px;
+}
+.navbar .container {
+  max-width: 1200px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+nav {
+  display: flex;
+}
+.navElements {
+  position: relative;
+}
+.navmenu {
+  vertical-align: middle;
+}
+td a {
+  text-decoration: none;
+  font-size: 17px;
+  margin: 0px 10px;
+}
+.searchBox {
+  position: relative;
+  width: 300px;
+  border: 4px solid whitesmoke;
+  border-radius: 50px;
+  padding: 0px 10px;
+}
+.searchElements {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.search {
+  border: none;
+  padding: 0px 5px;
+  width: 100%;
+}
+.search:focus {
+  outline: none;
+}
+
+.material-icons {
+  vertical-align: middle;
+}
+
+/* Section Info */
+
+#home-info {
+  height: 450px;
+}
+#home-info h2 p {
+  margin-bottom: 40px;
+}
+
+#home-info img {
+  float: right;
+  width: 600px;
+  background: url(/img/Team\ of\ programmers\ working\ on\ software.jpg)
+    no-repeat center center/cover;
+}
+
+#home-info .info-content {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: justify;
+  padding: 30px 30px;
+  overflow: hidden;
 }
