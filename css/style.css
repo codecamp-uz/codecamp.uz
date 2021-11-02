@@ -1,70 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Space Mono', monospace;
-}
-.navbar{
-    width: 100%;
-    color: whitesmoke;
-    background-color: white;
-    height: 70px;
-}
-.navbar .nav-contain{
-    max-width: 1200px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-}
-.logo{
-    align-items: left;
-}
-.main-logo{
-    width: 200px;
-}
-nav{
-    display: flex;
-}
-.navElements{
-    position: relative;
-}
-.navmenu{
-    vertical-align: middle;
-}
-td a{
-    text-decoration: none;
-    font-size: 17px;
-    margin: 0px 10px;
-    color: black;    
-}
-.searchBox{   
-    position: relative;   
-    width: 300px;
-    border: 4px solid whitesmoke;
-    border-radius: 50px;
-    padding: 0px 10px;
-}
-.searchElements{    
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;
-}
-.search{
-    border: none;
-    padding: 0px 5px;
-    width: 100%;
-}
-.search:focus{
-    outline: none;
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
 }
 
 /* Global CSS */
-.container{
+.container {
   margin: auto;
-  max-width: 1600px;
+  max-width: 1300px;
   box-sizing: border-box;
 }
 h1,
@@ -72,77 +17,96 @@ h2,
 h3 {
   padding-bottom: 20px;
 }
-h1{
-    font-size: 40px;
+h1 {
+  font-size: 40px;
 }
 p {
   margin: 10px 0;
 }
 
+/* Navbar Basics and Logo */
+
+.logo {
+  margin: auto 0;
+  align-items: left;
+}
+.main-logo {
+  width: 150px;
+}
+
 /* Navbar */
 
-.navbar {
-  width: 100%;
-  color: whitesmoke;
-  background-color: white;
-  height: 70px;
-}
-.navbar .nav-contain {
-  /* max-width: 1200px; */
-  margin: 0px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-}
 nav {
   display: flex;
-}
-.navElements {
-  position: relative;
-}
-.navmenu {
-  vertical-align: middle;
-}
-td a {
-  text-decoration: none;
-  font-size: 17px;
-  margin: 0px 10px;
-}
-.searchBox {
-  position: relative;
-  width: 300px;
-  border: 4px solid whitesmoke;
-  border-radius: 50px;
-  padding: 0px 10px;
-}
-.searchElements {
   width: 100%;
-  height: 100%;
-  vertical-align: middle;
+  background-color: #fff;
+  position: relative;
+  justify-content: space-between;
+  text-align: center;
 }
-.search {
-  border: none;
-  padding: 0px 5px;
-  width: 100%;
-}
-.search:focus {
-  outline: none;
+nav ol {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
 }
 
-.material-icons {
-  vertical-align: middle;
+nav ol li {
+  margin: 0 2px;
+}
+
+nav ol li a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 20px 30px;
+}
+
+nav ol li:hover a {
+  color: #dc4437;
+}
+/* Search box */
+
+nav .search-box {
+  display: flex;
+  margin: auto 0;
+  height: 35px;
+  line-height: 35px;
+}
+
+nav .search-box input {
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: #fff;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 15px;
+  width: 300px;
+}
+
+/* Magnifier here CSS */
+
+nav .search-box span {
+  color: #333;
+  font-size: 20px;
+  background: #fff;
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
 }
 
 /* Section Info */
 
 #home-info {
-    margin-top: 20px;
-    height: 450px;
+  margin-top: 20px;
+  height: 450px;
 }
 #home-info h2 p {
-    
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 #home-info img {
@@ -157,18 +121,14 @@ td a {
   width: 50%;
   height: 100%;
   text-align: justify;
-  padding: 30px 30px;
   overflow: hidden;
 }
-header{
-    box-shadow:  5px 5px 10px #dcdcdc,
-             -5px -5px 10px #e4e4e4;
+header {
+  box-shadow: 5px 5px 10px #dcdcdc, -5px -5px 10px #e4e4e4;
 }
-.text-info{
-    float: left;
-    margin-bottom: 40px;
-    padding-left: 30px;
-    padding-right: 30px;
-    overflow: hidden;
-    text-align: justify;
+.text-info {
+  float: left;
+  margin-bottom: 40px;
+  overflow: hidden;
+  text-align: justify;
 }
