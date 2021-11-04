@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 *{
     margin: 0px;
@@ -72,3 +73,163 @@ td a{
 header{
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
+=======
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Space Mono", monospace;
+}
+
+/* Global CSS */
+.container {
+  margin: auto;
+  max-width: 1300px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 40px;
+}
+p {
+  margin: 10px 0;
+}
+
+/* Navbar Basics and Logo */
+
+.logo {
+  margin: auto 0;
+  align-items: left;
+}
+.main-logo {
+  width: 150px;
+}
+
+/* Logo CodeCamp.Uz */
+.logo {
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+nav #code-1 {
+  font-family: "Comfortaa", cursive;
+  color: #018786;
+}
+nav #code-2 {
+  font-family: "Comfortaa", cursive;
+  color: #af001f;
+}
+nav #code-uz {
+  font-family: "Comfortaa", cursive;
+  color: #dc4437;
+}
+/* Navbar */
+
+nav {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  justify-content: space-between;
+  text-align: center;
+}
+nav ol {
+  display: flex;
+  list-style: none;
+  margin: auto 0;
+}
+
+nav ol li {
+  margin: 0 2px;
+}
+
+nav ol li a {
+  color: #333;
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 20px 30px;
+}
+
+nav ol li:hover a {
+  color: #dc4437;
+}
+/* Search box */
+
+nav .search-box {
+  display: flex;
+  margin: auto 0;
+  height: 35px;
+  line-height: 35px;
+}
+
+nav .search-box input {
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background: #fff;
+  height: 100%;
+  padding: 0 10px;
+  font-size: 15px;
+  width: 300px;
+}
+
+/* Magnifier here CSS */
+
+nav .search-box span {
+  color: #333;
+  font-size: 20px;
+  background: #fff;
+  height: 100%;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Home Section Info */
+
+#home-info {
+  margin-top: 20px;
+  height: 450px;
+}
+#home-info h2 p {
+  margin-bottom: 40px;
+}
+
+#home-info img {
+  float: right;
+  width: 50%;
+  /* background: url(/img/Team\ of\ programmers\ working\ on\ software.jpg)
+    no-repeat center center/cover; */
+}
+
+#home-info .info-content {
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: justify;
+  overflow: hidden;
+}
+header {
+  box-shadow: 5px 5px 10px #dcdcdc, -5px -5px 10px #e4e4e4;
+}
+.text-info {
+  float: left;
+  margin-bottom: 40px;
+  overflow: hidden;
+  text-align: justify;
+}
+>>>>>>> fa432494d70245f22d5621c80716fbb8e3abcb43

@@ -1,0 +1,35 @@
+/* /////////// NavBar Responsiblity \\\\\\\\\\ */
+
+@media screen and (max-width: 1250px) {
+  nav {
+    display: block;
+    padding: 0;
+    background: ;
+  }
+
+  nav .logo {
+    display: inline-block;
+    padding: 15px 30px;
+  }
+
+  nav .search-box {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  nav .search-box input {
+    width: 50%;
+  }
+  nav ol {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+  }
+  nav ol li a {
+    color: #000;
+    font-size: 28px;
+    padding: 25px;
+    display: block;
+  }
+}
