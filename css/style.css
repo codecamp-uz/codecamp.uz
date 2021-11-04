@@ -34,6 +34,30 @@ p {
   width: 150px;
 }
 
+/* Logo CodeCamp.Uz */
+.logo {
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 1000;
+}
+
+nav #code-1 {
+  font-family: "Comfortaa", cursive;
+  color: #018786;
+}
+nav #code-2 {
+  font-family: "Comfortaa", cursive;
+  color: #af001f;
+}
+nav #code-uz {
+  font-family: "Comfortaa", cursive;
+  color: #dc4437;
+}
 /* Navbar */
 
 nav {
@@ -99,7 +123,7 @@ nav .search-box span {
   z-index: 1;
 }
 
-/* Section Info */
+/* Home Section Info */
 
 #home-info {
   margin-top: 20px;
